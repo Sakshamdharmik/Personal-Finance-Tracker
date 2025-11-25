@@ -118,3 +118,15 @@ dist
 .pnp.*
 
 # End of https://mrkandreev.name/snippets/gitignore-generator/#Node
+
+# Project specific
+public/temp/*
+!public/temp/.gitkeep
+cookies.txt
+frontend/dist
+frontend/.vite
+*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

@@ -1,0 +1,32 @@
+.budget-form-page {
+  min-height: 100vh;
+  display: flex;
+  background: var(--bg);
+}
+
+.page-content {
+  margin-left: 280px;
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 600px;
+}
+
+.budget-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group small {
+  display: block;
+  margin-top: 0.25rem;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
